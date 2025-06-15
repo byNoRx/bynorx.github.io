@@ -1,11 +1,8 @@
 body {
     background-color: whitesmoke;
     font-family:Arial, Helvetica, sans-serif;
-    color: #333;
-    padding-left: 10px;
-    padding-right: 10px;
-    alignment-baseline: central;
-}
+    color: black;
+    padding: 10px;}
 .download {
     display: inline;
     background-color: green;
