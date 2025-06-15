@@ -1,0 +1,13 @@
+body {
+    background-color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    padding-left: 10px;
+    padding-right: 10px;
+    alignment-baseline: central;
+}
+.download {
+    display: inline;
+    background-color: green;
+    color: whitesmoke;
+    padding: 10px;}
