@@ -5,6 +5,7 @@ body {
     padding: 10px;}
 .download {
     display: inline;
+    text-decoration: none;
     background-color: green;
     color: whitesmoke;
     padding: 10px;}
