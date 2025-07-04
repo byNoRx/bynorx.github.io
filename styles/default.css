@@ -10,7 +10,8 @@ body {
 h1,
 h2,
 h3 {
-  margin: 0 0 25px 0;
+  margin: 25px;
+  margin-top: 0;
 }
 
 header {
@@ -62,11 +63,16 @@ section {
 .content a {
   color: rgba(0, 0, 0, 0.5);
   background-color: #ffffff;
-  padding: 25px;
+  padding: 25px 0;
   text-decoration: none;
   border-radius: 10px;
   box-shadow: 0 0 25px 0px rgba(0, 0, 0, 10%);
   width: 320px;
+}
+
+article p {
+  margin: 25px;
+  margin-bottom: 0;
 }
 
 a {
