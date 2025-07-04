@@ -1,0 +1,75 @@
+html {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #e1eeff;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 25px 0;
+}
+
+header {
+  background-color: #009bdb;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 25px;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: start;
+  gap: 25px;
+
+  text-transform: uppercase;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+main {
+  padding: 25px;
+  color: rgba(0, 0, 0, 50%);
+}
+
+section {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.content a {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  padding: 25px;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 0 25px 0px rgba(0, 0, 0, 10%);
+  width: 320px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
