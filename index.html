@@ -1,23 +1,70 @@
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="google-site-verification"
       content="89actp0O4YU09NmDJy1H8AlnRQcsrzf5Dr9Lu4qQnq8"
     />
     <title>NoRx</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/default.css" />
   </head>
   <body>
-    <h1>Index</h1>
-    <ul>
-      <li>
-        <a href="pages/usu.html">United States of Urania</a>
-      </li>
-      <li>
-        <a href="pages/penguins.html">Penguins</a>
-      </li>
-    </ul>
+    <header class="shadow">
+      <div class="logo">
+        <a href="index.html">
+          <img
+            src="images/norx-logo.png"
+            width="50"
+            height="50"
+            alt="NoRx logo"
+          />
+        </a>
+      </div>
+
+      <div class="menu">
+        <a href="en/pages/usu.html" class="button">
+          <b>United States of Urania</b>
+        </a>
+        <a href="en/pages/penguins.html" class="button">
+          <b>Penguins</b>
+        </a>
+      </div>
+
+      <div></div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Projects</h2>
+        <div class="content">
+          <a href="en/pages/usu.html">
+            <article>
+              <h3>United States of Urania</h3>
+              <img
+                src="images/usu-miniature.jpeg"
+                width="320"
+                height="180"
+                alt="United States of Urania miniature"
+              />
+              <p>A Minecraft world created by Frako Wolf</p>
+            </article>
+          </a>
+
+          <a href="https://norx.itch.io/spacebox">
+            <article>
+              <h3>Spacebox</h3>
+              <img
+                src="images/spacebox-miniature.jpg"
+                width="320"
+                height="180"
+                alt="Spacebox miniature"
+              />
+              <p>Simple local multiplayer PC game</p>
+            </article>
+          </a>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
